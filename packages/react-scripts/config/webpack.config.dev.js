@@ -169,7 +169,10 @@ module.exports = {
             options: {
               // @remove-on-eject-begin
               babelrc: false,
-              presets: [require.resolve('babel-preset-react-app')],
+              presets: [
+                require.resolve('babel-preset-flow'),
+                require.resolve('babel-preset-react-app'),
+              ],
               plugins: [
                 require.resolve('babel-plugin-transform-decorators-legacy'),
                 require.resolve('babel-plugin-transform-do-expressions'),

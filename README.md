@@ -9,6 +9,7 @@
 
 - [Decorators](https://github.com/wycats/javascript-decorators)
 - [Do expressions](https://github.com/tc39/proposal-do-expressions)
+- [flow](https://flow.org/en/)
 - Less
 - CSS modules
 
